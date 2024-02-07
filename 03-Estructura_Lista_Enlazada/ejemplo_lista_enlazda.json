@@ -1,0 +1,19 @@
+{
+    "value": {
+        "name": "Spiderman",
+        "picture": "images/spiderman.jpg"
+    },
+    "next": {
+        "value": {
+            "name": "Titanic",
+            "picture": "images/titanic.jpg"
+        },
+        "next": {
+            "value": {
+                "name": "El señor de los anillos",
+                "picture": "images/lotr.jpg"
+            },
+            "next": null
+        }
+    }
+}
