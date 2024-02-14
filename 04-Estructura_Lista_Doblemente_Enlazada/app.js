@@ -46,7 +46,6 @@ class DoublyLinkedList {
     }
 }
 
-
 // Ejemplo de caso de uso lista doblemente enlazada
 
 // Obtenemos referencias a los elementos del DOM donde se mostrarán los detalles de las películas
@@ -70,7 +69,6 @@ moviesLinkedList.add({
     name: 'El señor de los anillos', // Nombre de la tercera película.
     picture: 'images/lotr.jpg' // URL de la imagen de la tercera película.
 });
-
 
 // Inicializamos una variable 'movie' que apunta al primer nodo (head) de la lista doblemente enlazada.
 let movie = moviesLinkedList.head;
