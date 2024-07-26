@@ -84,6 +84,7 @@ function addToStack() {
  * Función para eliminar el último nombre de la pila y actualizar la visualización en el DOM.
  */
 function deleteToStack() {
+    stackNames.isEmpty() ? alert('La Pila está Vacia') : null; // Si la pila está vacía, muestra una alerta al usuario.
     stackNames.pop(); // Elimina el último nombre de la pila.
     showNames(); // Actualiza la visualización de nombres.
 }
